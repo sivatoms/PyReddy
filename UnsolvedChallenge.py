@@ -31,11 +31,11 @@ print(abs(res1-res2))
   #  res2 = len(list(setB.intersection(set(arr))))
   #  print(abs(res1-res2))
 
-# thsi code worked on hacker rank - i dont know why my code did not
-n, m = raw_input().split()
+# this code worked on hacker rank - i don't know why my code did not
+n, m = input().split()
 
-sc_ar = raw_input().split()
+sc_ar = input().split()
 
-A = set(raw_input().split())
-B = set(raw_input().split())
+A = set(input().split())
+B = set(input().split())
 print(sum([(i in A) - (i in B) for i in sc_ar]))

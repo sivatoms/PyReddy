@@ -6,7 +6,7 @@ class Car():
     wheels = 4   # this is a class variable
     def __init__(self):
         self.mil = 10           # These are instance variable - can be changed using objects
-        self.com = "BMW"        # These are instance variabes
+        self.com = "BMW"        # These are instance variables
 
 c1 = Car()
 c2 = Car()

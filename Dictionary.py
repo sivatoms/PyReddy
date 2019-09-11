@@ -27,3 +27,5 @@ for i in range(len(tt)):
 result = "%0.2f" % float(r/len(tt))  # adding decimal place to a number using "%0.2f" % float()
 print(result)
 
+
+

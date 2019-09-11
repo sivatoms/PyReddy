@@ -12,6 +12,6 @@ evens = list(filter(lambda a : a%2== 0,nums))
 print(evens)
 doubles = list(map(lambda a : a*2,evens))
 print(doubles)
-sum = reduce(lambda a,b : a + b,doubles)  ## reduce duntions takes two values and a function
+sum = reduce(lambda a,b : a + b,doubles)  ## reduce funtions takes two values and a function
 print(sum)
 

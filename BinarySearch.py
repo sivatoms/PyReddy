@@ -19,8 +19,7 @@ def search(lst, n):
                 u = mid-1
     return False
 
-
-n = 702
+n = 70
 lst = [4, 7, 8, 12, 45, 99, 102, 702]
 
 if search(lst, n):
