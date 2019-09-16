@@ -33,7 +33,6 @@ r = []
 for i, j in l:
     if max(c.values()) == j:
         r.append(i)
-
 print(min(r))
 
 

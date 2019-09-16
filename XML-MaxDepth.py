@@ -19,7 +19,7 @@ if __name__ == '__main__':
     n = int(input())
     xml = ""
     for i in range(n):
-        xml =  xml + input() + "\n"
+        xml = xml + input() + "\n"
     tree = etree.ElementTree(etree.fromstring(xml))
     depth(tree.getroot(), -1)
     print(maxdepth)
