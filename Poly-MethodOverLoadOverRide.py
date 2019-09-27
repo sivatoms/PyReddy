@@ -17,8 +17,7 @@ class A():
 
 s1 = A()
 
-print(s1.sum(3,4))
-
+print(s1.sum(3, 4))
 
 #MethodOverRiding
 

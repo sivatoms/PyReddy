@@ -23,7 +23,7 @@ def number(Number):
 
 if t == 0:
     hour = number(h)
-    print("{0}:00 o' clock".format(hour))
+    print("{0}:00 O' clock".format(hour))
 elif t == 15:
     r1 = number(h)
     print("quarter past {0}".format(r1))

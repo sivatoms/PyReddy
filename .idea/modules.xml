@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyReddy.iml" filepath="$PROJECT_DIR$/.idea/PyReddy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Tkinter/.idea/Tkinter.iml" filepath="$PROJECT_DIR$/../Tkinter/.idea/Tkinter.iml" />
     </modules>
   </component>
 </project>

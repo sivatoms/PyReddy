@@ -6,12 +6,10 @@ s = input()
 # polar, complex
 print(*polar(complex(input())), sep ='\n')
 
-
-
 x = re.search(r'(^[0-9])+', s)
 k = re.search(r'.\+.', s)
 
-k = k.group().replace('+','')
+#k = k.group().replace('+','')
 l = list(k)
 l1 = int(l[0]) * int(l[0])
 l2 = int(l[1]) * int(l[1])

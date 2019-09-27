@@ -8,11 +8,8 @@ b = r"(\d)[?=.\1]"  # (\d)(?=.\1)       #  (\d) give all decimal digits, ?=. wil
 
 import re
 P = input()
-
-
 print(re.findall(b, P))
 #print(bool(re.match(regex_integer_in_range, P)) and len(re.findall(regex_alternating_repetitive_digit_pair, P)) < 2)
-
 pattern = r"Cookie"
 sequence = "Cookie"
 if re.match(pattern, sequence):

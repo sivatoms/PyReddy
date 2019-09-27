@@ -32,5 +32,4 @@ cur.close()
 #Close the connection
 con.close()
 
-
 # install mysql using - >    pip install mysql-connector-python

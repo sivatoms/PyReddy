@@ -10,6 +10,7 @@
 # 22 21 20
 
 def compareTriplets(a):
+
     LD = 0
     RD = 0
     b = []
@@ -29,8 +30,7 @@ def compareTriplets(a):
             if i == j:
                 RD += b[i][j]
 
-
-    return  abs(LD-RD)
+    return abs(LD-RD)
 
 
 n = int(input().strip())

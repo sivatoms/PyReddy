@@ -16,14 +16,10 @@ for i in range(len(arr)):
     if next(t1) == True:
         #print(i)
         res1 += 1
-
-
 for i in range(len(arr)):
     if next(t2) == True:
-        #print(i)
+        print(i)
         res2 += 1
-
-
 print(abs(res1-res2))
 
 #if inp[0] == len(arr) and inp[1] == len(list(setA)) and inp[1] == len(list(setB)):
